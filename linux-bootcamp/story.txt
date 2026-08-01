@@ -1,2 +1,3 @@
 Day 1: I started learning Linux.
 Day 2: I learned Git.
+Day 3: Edited directly on GitHub.
