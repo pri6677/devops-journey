@@ -1,8 +1,7 @@
 Day 1: I started learning Linux.
-<<<<<<< HEAD
 Day 2: I learned Git from both the main branch and the feature branch.
-=======
 Day 2: I learned Git from both the main branch and the feature branch.
->>>>>>> feature-conflict
 Day 3: Edited directly on GitHub.
 Day 4: I created my first Git branch. 
+Day 5: Learning git restore.
+Day 6: Learning git stash.
