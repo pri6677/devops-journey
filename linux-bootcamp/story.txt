@@ -1,9 +1,8 @@
 Day 1: I started learning Linux.
-Day 2: I learned Git from both the main branch and the feature branch.
-Day 2: I learned Git from both the main branch and the feature branch.
+Day 2: Learned Git basics.
 Day 3: Edited directly on GitHub.
-Day 4: I created my first Git branch. 
-Day 5: Learning git restore.
-Day 6: Learning git stash.
-Main branch received a new update.
-Day 8: Learning git cherry-pick.
+Day 4: Created my first Git branch.
+Day 5: Learned git restore.
+Day 6: Learned git stash.
+Day 7: Learned git rebase.
+Day 8: Learned git cherry-pick.
