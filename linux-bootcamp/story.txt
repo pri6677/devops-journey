@@ -1,4 +1,4 @@
 Day 1: I started learning Linux.
-Day 2: I learned Git.
+Day 2: I learned Git from the feature branch.
 Day 3: Edited directly on GitHub.
 Day 4: I created my first Git branch. 
