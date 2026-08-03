@@ -7,4 +7,3 @@ Day 5: Learning git restore.
 Day 6: Learning git stash.
 Main branch received a new update.
 Day 8: Learning git cherry-pick.
-Day 10: Learning git reset.
