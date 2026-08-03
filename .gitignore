@@ -1,3 +1,21 @@
-app.log
-password.txt
-notes.txt
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux editor backups
+*~
