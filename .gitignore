@@ -19,3 +19,4 @@ venv/
 
 # Linux editor backups
 *~
+nohup.out

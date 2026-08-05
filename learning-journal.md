@@ -65,3 +65,32 @@ Completed:
 ✅ Created lab files
 
 ✅ Pushed the module to GitHub
+
+
+## 2026-08-06
+
+### Topic Completed
+- Linux Process Management
+
+### Commands Learned
+- ps
+- top
+- htop
+- pgrep
+- pidof
+- kill
+- kill -9
+- pkill
+- killall
+- &
+- jobs
+- Ctrl + Z
+- bg
+- fg
+- nohup
+
+### Hands-on
+- Managed foreground and background jobs.
+- Used htop to monitor processes.
+- Killed processes using PID and process names.
+- Practiced nohup for long-running tasks.
