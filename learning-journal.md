@@ -66,6 +66,9 @@ Completed:
 
 ✅ Pushed the module to GitHub
 
+---
+
+## Day 10
 
 ## 2026-08-06
 
@@ -94,3 +97,56 @@ Completed:
 - Used htop to monitor processes.
 - Killed processes using PID and process names.
 - Practiced nohup for long-running tasks.
+
+
+
+---
+
+# Day 11 – Disk, Storage & Memory
+
+## Date
+
+2026-08-07
+
+## Learned
+
+- df
+- du
+- lsblk
+- free
+- mount
+- findmnt
+
+## Key Concepts
+
+- Filesystem
+- Block Device
+- Partition
+- Mount Point
+- UUID
+- ext4
+- NTFS
+- RAM vs Storage
+- Cache Memory
+- Available Memory
+
+## Hands-on Completed
+
+- Checked filesystem usage
+- Measured directory sizes
+- Explored partitions
+- Examined mounted filesystems
+- Investigated RAM usage
+- Understood Linux storage hierarchy
+
+## Biggest Learning
+
+Linux doesn't waste RAM.
+
+Unused RAM becomes cache and is released whenever applications need memory.
+
+This is why the "Available" column is more important than the "Free" column.
+
+## GitHub
+
+Updated Linux notes and journal.
