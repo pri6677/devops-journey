@@ -150,3 +150,27 @@ This is why the "Available" column is more important than the "Free" column.
 ## GitHub
 
 Updated Linux notes and journal.
+
+
+---
+
+# Day 12 – Linux Permissions & Security
+
+## Date
+
+2026-08-08
+
+## Completed
+
+- Linux users, groups, ownership and permissions
+- Numeric and symbolic `chmod`
+- ACL with `getfacl` and `setfacl`
+- SUID, SGID and Sticky Bit
+- `chown`, `chgrp`, `sudo` and `stat`
+- Completed a hands-on security challenge
+
+## GitHub
+
+- Added detailed Permissions & Security notes
+- Committed and pushed to GitHub
+
