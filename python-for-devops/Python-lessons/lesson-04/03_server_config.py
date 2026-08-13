@@ -1,0 +1,12 @@
+server_name = input("Enter server name: ")
+ip_address = input("Enter IP address: ")
+port = int(input("Enter port: "))
+environment = input("Enter environment: ")
+
+print()
+print("========== SERVER CONFIGURATION ==========")
+print(f"Server: {server_name}")
+print(f"IP Address: {ip_address}")
+print(f"Port: {port}")
+print(f"Environment: {environment}")
+print("===========================================")
