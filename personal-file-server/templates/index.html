@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal File Server</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <div>
+
+                <h1>Personal File Server</h1>
+
+                <p class="status">
+                    ● Server Online
+                </p>
+
+            </div>
+
+            <a href="{{ url_for('logout') }}" class="logout">
+                Logout
+            </a>
+
+        </header>
+
+
+        <!-- Upload Section -->
+
+        <section class="card">
+
+            <h2>Upload File</h2>
+
+            <form
+                action="{{ url_for('upload') }}"
+                method="post"
+                enctype="multipart/form-data"
+            >
+
+                <input
+                    type="file"
+                    name="file"
+                    required
+                >
+
+                <button type="submit">
+                    Upload
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Files Section -->
+
+        <section class="card">
+
+            <h2>Your Files</h2>
+
+            {% if files %}
+
+                <div class="file-list">
+
+                    {% for file in files %}
+
+                        <div class="file-item">
+
+                            <span class="file-name">
+                                {{ file }}
+                            </span>
+
+                            <div class="file-actions">
+
+                                <a
+                                    href="{{ url_for('download', filename=file) }}"
+                                    class="download"
+                                >
+                                    Download
+                                </a>
+
+
+                                <form
+                                    action="{{ url_for('delete', filename=file) }}"
+                                    method="post"
+                                >
+
+                                    <button
+                                        type="submit"
+                                        class="delete"
+                                    >
+                                        Delete
+                                    </button>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    {% endfor %}
+
+                </div>
+
+            {% else %}
+
+                <p class="empty">
+                    No files uploaded yet.
+                </p>
+
+            {% endif %}
+
+        </section>
+
+
+        <footer>
+
+            <p>
+                Personal File Server
+            </p>
+
+            <p>
+                Running on your Linux laptop
+            </p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
