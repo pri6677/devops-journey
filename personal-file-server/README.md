@@ -589,9 +589,4 @@ This project provides a practical introduction to server-side programming, netwo
 ---
 
 ## Author
-
-**Pri**
-
-BCA Student
-
-**Personal File Server — University Project**
+Pri
