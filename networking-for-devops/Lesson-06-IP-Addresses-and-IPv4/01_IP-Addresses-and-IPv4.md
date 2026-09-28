@@ -1,5 +1,3 @@
-
-````markdown
 # Networking Lesson 06: IP Addresses & IPv4
 
 ## 1. What Is an IP Address?

@@ -1,6 +1,4 @@
-Yes — here is the **entire Lesson 04 in ONE single copy block**. Just click **Copy** once.
 
-````markdown
 # Networking Lesson 04 — Linux Networking Lab
 
 ## 1. Lesson Overview

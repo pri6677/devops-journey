@@ -1,0 +1,8 @@
+
+# Create a function that takes a server name as a parameter and prints the server name
+def show_server(server):
+    print("Server:", server)
+
+
+show_server("web-01")
+show_server("web-02")
