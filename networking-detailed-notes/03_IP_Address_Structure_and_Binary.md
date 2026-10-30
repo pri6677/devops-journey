@@ -146,13 +146,17 @@ For example:
 means:
 
 \[
+$$
 345 = (3 \times 100) + (4 \times 10) + (5 \times 1)
+$$
 \]
 
 Or:
 
 \[
+$$
 345 = (3 \times 10^2) + (4 \times 10^1) + (5 \times 10^0)
+$$
 \]
 
 Binary works similarly, but each position represents a power of 2.
@@ -166,21 +170,29 @@ Consider:
 Its value is:
 
 \[
+$$
 1011_2 = (1 \times 8) + (0 \times 4) + (1 \times 2) + (1 \times 1)
+$$
 \]
 
 \[
+$$
 = 8 + 0 + 2 + 1
+$$
 \]
 
 \[
+$$
 = 11_{10}
+$$
 \]
 
 Therefore:
 
 \[
+$$
 \boxed{1011_2 = 11_{10}}
+$$
 \]
 
 The subscripts indicate the number system: base 2 for binary and base 10 for decimal.
@@ -220,13 +232,17 @@ Binary representation:
 Let's calculate the total.
 
 \[
+$$
 4 \times 8 = 32 \text{ bits}
+$$
 \]
 
 Since one byte contains eight bits:
 
 \[
+$$
 32 \div 8 = 4 \text{ bytes}
+$$
 \]
 
 Therefore:
@@ -271,7 +287,9 @@ Why?
 An eight-bit binary number has:
 
 \[
+$$
 2^8 = 256
+$$
 \]
 
 possible combinations.
@@ -279,7 +297,9 @@ possible combinations.
 Because the values start at zero, the range is:
 
 \[
+$$
 \boxed{0 \text{ to } 255}
+$$
 \]
 
 For example:
@@ -344,13 +364,17 @@ To convert binary to decimal, add the place values wherever the binary digit is 
 For the example above:
 
 \[
+$$
 128 + 64 = 192
+$$
 \]
 
 Therefore:
 
 \[
+$$
 \boxed{11000000_2 = 192_{10}}
+$$
 \]
 
 Let's use this knowledge to convert a complete IP address.
@@ -378,7 +402,9 @@ The place values are:
 To make 192:
 
 \[
+$$
 192 = 128 + 64
+$$
 \]
 
 Therefore, the bits for 128 and 64 are `1`, and the remaining bits are `0`.
@@ -391,7 +417,9 @@ Binary:  11000000
 ## Octet 2: 168
 
 \[
+$$
 168 = 128 + 32 + 8
+$$
 \]
 
 So:
@@ -404,7 +432,9 @@ Binary:  10101000
 Check the calculation:
 
 \[
+$$
 128 + 32 + 8 = 168
+$$
 \]
 
 ## Octet 3: 1
@@ -421,7 +451,9 @@ The leading zeros are important because an octet must be represented using eight
 ## Octet 4: 10
 
 \[
+$$
 10 = 8 + 2
+$$
 \]
 
 Therefore:
@@ -476,7 +508,9 @@ Place value: 128 64 32 16  8  4  2  1
 Select the place values corresponding to `1`:
 
 \[
+$$
 128 + 64 = 192
+$$
 \]
 
 Therefore:
@@ -500,7 +534,9 @@ The `1` bits correspond to:
 Adding them:
 
 \[
+$$
 128 + 32 + 8 = 168
+$$
 \]
 
 Therefore:
@@ -544,7 +580,9 @@ Therefore, the total number of possible 32-bit patterns is:
 Which equals:
 
 \[
+$$
 \boxed{4,294,967,296}
+$$
 \]
 
 That is approximately **4.29 billion possible IPv4 addresses**.
@@ -774,7 +812,9 @@ You'll explore their differences in your later lectures on MAC addresses and ARP
 
 ## The three facts you must remember
 
+$$
 1. **IPv4 = 32 bits = 4 octets = 4 bytes.**
+$$
 2. **Each octet contains 8 bits and represents a decimal value from 0 to 255.**
 3. **Binary place values are 128, 64, 32, 16, 8, 4, 2, and 1.**
 
@@ -796,7 +836,9 @@ A 32-bit IPv4 address is divided into four groups of eight bits. Each group is c
 
 ### Q4. Why does an octet have a maximum value of 255?
 
+$$
 An octet contains eight bits, giving it \(2^8 = 256\) possible combinations. Since the range starts at zero, the maximum value is 255.
+$$
 
 ### Q5. How many bits are in an IPv4 address?
 
@@ -811,7 +853,9 @@ A bit is a single binary digit. A byte contains eight bits.
 The `1` bits correspond to 128 and 64.
 
 \[
+$$
 128 + 64 = 192
+$$
 \]
 
 Answer: **192**.
