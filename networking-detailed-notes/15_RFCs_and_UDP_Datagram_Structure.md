@@ -68,7 +68,8 @@ However, a short specification does not mean UDP is unimportant or that implemen
 
 You can read the original specification here:
 
-[RFC 768 — User Datagram Protocol](https://www.rfc-editor.org/rfc/rfc768?utm_source=chatgpt.com)
+$$
+RFC 768 — User Datagram Protocol](https://www.rfc-editor.org/rfc/rfc768?utm_source=chatgpt.com)
 
 When studying networking, learning to read RFCs is useful because they provide the formal technical rules behind the concepts you learn in lectures.
 
@@ -87,7 +88,8 @@ Therefore:
 
 \[
 \text{UDP Header Size} = 4 \times 2 = 8\text{ bytes}
-\]
+\
+$$
 
 The total UDP datagram size is:
 
