@@ -86,7 +86,6 @@ The UDP header contains four fields, each **16 bits (2 bytes)** long.
 
 Therefore:
 
-\[
 $$
 \text{UDP Header Size} = 4 \times 2 = 8\text{ bytes}
 $$
@@ -99,15 +98,12 @@ The total UDP datagram size is:
 $$
 \boxed{\text{UDP Datagram Size}=\text{Header Size}+\text{Payload Size}}
 $$
-\]
 
 Since the header is always 8 bytes:
 
-\[
 $$
 \boxed{\text{UDP Datagram Size}=8+\text{Payload Size}}
 $$
-\]
 
 Here, the payload size is measured in bytes.
 
@@ -248,11 +244,9 @@ Therefore, the numerical range is:
 
 So UDP port numbers range from:
 
-\[
 $$
 \boxed{0\text{ to }65,535}
 $$
-\]
 
 Ports are commonly grouped into three ranges:
 
@@ -277,11 +271,9 @@ It occupies:
 
 The formula is:
 
-\[
 $$
 \boxed{\text{UDP Length}=8+\text{Payload Length}}
 $$
-\]
 
 Why add 8?
 
@@ -295,17 +287,13 @@ The UDP header contributes another 8 bytes.
 
 Therefore:
 
-\[
 $$
 \text{UDP Length}=8+20
 $$
-\]
 
-\[
 $$
 \boxed{\text{UDP Length}=28\text{ bytes}}
 $$
-\]
 
 The resulting structure is:
 
@@ -323,27 +311,21 @@ The resulting structure is:
 
 Payload:
 
-\[
 $$
 100\text{ bytes}
 $$
-\]
 
 Header:
 
-\[
 $$
 8\text{ bytes}
 $$
-\]
 
 Total:
 
-\[
 $$
 8+100=108\text{ bytes}
 $$
-\]
 
 Therefore, the Length field contains `108`.
 
@@ -373,19 +355,15 @@ Suppose the UDP payload is 100 bytes.
 
 The UDP datagram length is:
 
-\[
 $$
 8+100=108\text{ bytes}
 $$
-\]
 
 If the IPv4 header is 20 bytes, the IPv4 total length is:
 
-\[
 $$
 20+108=128\text{ bytes}
 $$
-\]
 
 Thus:
 
@@ -519,11 +497,9 @@ However, the maximum practical payload depends on the underlying IP version and 
 
 For example, under ordinary IPv4 datagram rules, the UDP datagram cannot exceed the IPv4 packet's total-length limit. With a standard 20-byte IPv4 header, the theoretical maximum UDP payload is:
 
-\[
 $$
 65,535-20-8=65,507\text{ bytes}
 $$
-\]
 
 This is a theoretical upper bound, not a recommendation to send datagrams that large.
 
@@ -548,11 +524,9 @@ Assume:
 
 The UDP Length field is:
 
-\[
 $$
 8+32=40\text{ bytes}
 $$
-\]
 
 The UDP header looks like this:
 
@@ -633,11 +607,9 @@ The precise link-layer format depends on the technology being used.
 
 Remember the relationship:
 
-\[
 $$
 \boxed{\text{UDP Datagram}=\text{8-byte Header}+\text{Payload}}
 $$
-\]
 
 And the header fields in order:
 

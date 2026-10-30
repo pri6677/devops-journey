@@ -186,21 +186,17 @@ Result:
 
 Therefore:
 
-\[
 $$
 \boxed{\text{Network address} = 192.168.1.0}
 $$
-\]
 
 This means that `192.168.1.10/24` belongs to the subnet `192.168.1.0/24`.
 
 ### The formula
 
-\[
 $$
 \boxed{\text{Network address}=\text{IP address AND subnet mask}}
 $$
-\]
 
 This is one of the most important formulas in IPv4 subnetting.
 

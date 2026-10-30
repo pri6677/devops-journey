@@ -431,13 +431,17 @@ The UDP header contains four fields, each 16 bits long.
 Therefore:
 
 \[
+$$
 4 \times 16 = 64 \text{ bits}
+$$
 \]
 
 Since 8 bits equal one byte:
 
 \[
+$$
 64 \div 8 = 8 \text{ bytes}
+$$
 \]
 
 **The UDP header is always 8 bytes long.**
@@ -445,7 +449,9 @@ Since 8 bits equal one byte:
 The UDP Length field includes the header and the payload.
 
 \[
+$$
 \boxed{\text{UDP Length} = \text{UDP Header Length} + \text{UDP Payload Length}}
+$$
 \]
 
 ### Example from the lecture
@@ -460,7 +466,9 @@ DNS payload: 28 bytes
 The calculation is:
 
 \[
+$$
 8 + 28 = 36 \text{ bytes}
+$$
 \]
 
 Therefore:
@@ -497,11 +505,15 @@ Assume the packet contains:
 Then:
 
 \[
+$$
 \text{IPv4 Total Length} = 20 + 36
+$$
 \]
 
 \[
+$$
 \boxed{\text{IPv4 Total Length} = 56 \text{ bytes}}
+$$
 \]
 
 The values differ because the IPv4 Total Length field includes the IPv4 header, while the UDP Length field does not.
@@ -750,19 +762,25 @@ Compare your result with the displayed value.
 ### Length formulas
 
 \[
+$$
 \boxed{\text{UDP Length} = 8 + \text{UDP Payload Length}}
+$$
 \]
 
 For the lecture's example:
 
 \[
+$$
 8 + 28 = 36 \text{ bytes}
+$$
 \]
 
 With a 20-byte IPv4 header:
 
 \[
+$$
 20 + 36 = 56 \text{ bytes for the IPv4 packet}}
+$$
 \]
 
 ### The key concept

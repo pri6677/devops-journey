@@ -168,37 +168,29 @@ IPv4 has 32 bits in total.
 
 Therefore, the number of bits left for the host portion is:
 
-\[
 $$
 \text{Host bits} = 32 - \text{Prefix length}
 $$
-\]
 
 For `/24`:
 
-\[
 $$
 32 - 24 = 8
 $$
-\]
 
 So the host portion has 8 bits.
 
 For `/16`:
 
-\[
 $$
 32 - 16 = 16
 $$
-\]
 
 For `/26`:
 
-\[
 $$
 32 - 26 = 6
 $$
-\]
 
 ### Remember
 
@@ -227,11 +219,9 @@ Let's examine several common prefix lengths.
 
 The total number of addresses is calculated using:
 
-\[
 $$
 \boxed{\text{Total addresses} = 2^{\text{Host bits}}}
 $$
-\]
 
 This is the number of possible address combinations in the subnet.
 
@@ -253,19 +243,15 @@ Suppose you have:
 
 Step 1: Calculate the host bits.
 
-\[
 $$
 32 - 24 = 8
 $$
-\]
 
 Step 2: Calculate the total number of addresses.
 
-\[
 $$
 2^8 = 256
 $$
-\]
 
 Therefore:
 
@@ -282,11 +268,9 @@ Broadcast address: 192.168.1.255
 
 The conventional usable-host count is:
 
-\[
 $$
 256 - 2 = 254
 $$
-\]
 
 The two excluded addresses are the network address and the broadcast address.
 
@@ -300,19 +284,15 @@ Consider:
 
 Step 1:
 
-\[
 $$
 32 - 25 = 7
 $$
-\]
 
 Step 2:
 
-\[
 $$
 2^7 = 128
 $$
-\]
 
 Therefore, this subnet contains 128 addresses.
 
@@ -327,11 +307,9 @@ Broadcast address: 192.168.1.127
 
 Conventional usable-host count:
 
-\[
 $$
 128 - 2 = 126
 $$
-\]
 
 ## Example 3: `/26`
 
@@ -343,19 +321,15 @@ Consider:
 
 Step 1:
 
-\[
 $$
 32 - 26 = 6
 $$
-\]
 
 Step 2:
 
-\[
 $$
 2^6 = 64
 $$
-\]
 
 Therefore, this subnet contains 64 addresses.
 
@@ -370,11 +344,9 @@ Broadcast address: 192.168.1.63
 
 Conventional usable-host count:
 
-\[
 $$
 64 - 2 = 62
 $$
-\]
 
 ### Compare the results
 
@@ -520,17 +492,13 @@ VPC CIDR: 10.0.0.0/16
 
 A `/16` contains:
 
-\[
 $$
 32 - 16 = 16 \text{ host bits}
 $$
-\]
 
-\[
 $$
 2^{16} = 65,536 \text{ total IPv4 addresses}
 $$
-\]
 
 You might divide the VPC address space into smaller subnets, such as:
 
