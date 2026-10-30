@@ -798,8 +798,18 @@ A 32-bit IPv4 address is divided into four groups of eight bits. Each group is c
 
 ### Q4. Why does an octet have a maximum value of 255?
 
+An octet contains eight bits, giving it:
+
 $$
-An octet contains eight bits, giving it \(2^8 = 256\) possible combinations. Since the range starts at zero, the maximum value is 255.
+2^8 = 256
+$$
+
+possible combinations.
+
+Since the range starts at zero, the maximum value is:
+
+$$
+256 - 1 = 255
 $$
 
 ### Q5. How many bits are in an IPv4 address?
