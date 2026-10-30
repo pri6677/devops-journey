@@ -328,9 +328,9 @@ Notice that the values double as we move from right to left.
 
 These are the powers of 2:
 
-\[
+$$
 2^7,\;2^6,\;2^5,\;2^4,\;2^3,\;2^2,\;2^1,\;2^0
-\]
+$$
 
 So:
 
@@ -537,9 +537,9 @@ Each bit has two possible values:
 
 Therefore, the total number of possible 32-bit patterns is:
 
-\[
+$$
 2^{32}
-\]
+$$
 
 Which equals:
 
@@ -826,9 +826,9 @@ It is the IPv4 loopback address, used to communicate with the local machine.
 
 ### Q9. How many possible 32-bit IPv4 address patterns exist?
 
-\[
+$$
 2^{32} = 4,294,967,296
-\]
+$$
 
 ### Q10. Why should a DevOps Engineer understand IP addressing?
 

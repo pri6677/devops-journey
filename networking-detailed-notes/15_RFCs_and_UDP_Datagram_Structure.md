@@ -89,12 +89,9 @@ Therefore:
 $$
 \text{UDP Header Size} = 4 \times 2 = 8\text{ bytes}
 $$
-\
-$$
 
 The total UDP datagram size is:
 
-\[
 $$
 \boxed{\text{UDP Datagram Size}=\text{Header Size}+\text{Payload Size}}
 $$
@@ -238,9 +235,9 @@ UDP uses a 16-bit port field.
 
 Therefore, the numerical range is:
 
-\[
+$$
 2^{16}=65,536
-\]
+$$
 
 So UDP port numbers range from:
 
