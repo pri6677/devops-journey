@@ -12,6 +12,8 @@ I also integrated Amazon CloudWatch and SNS to monitor infrastructure and receiv
 
 ## Architecture
 
+![AWS Architecture](architecture/aws-architecture.png)
+
 ```text
                          Internet
                             |
